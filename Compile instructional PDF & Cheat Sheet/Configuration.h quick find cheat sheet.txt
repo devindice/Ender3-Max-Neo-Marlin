@@ -1,0 +1,10 @@
+Use ctrl F to save time
+
+CUSTOM_MACHINE_NAME
+Analog Thermistors
+HEATER_0_MAXTEMP
+BED_MAXTEMP
+Mechanical Settings
+X_BED_SIZE
+PREHEAT_1_LABEL
+
