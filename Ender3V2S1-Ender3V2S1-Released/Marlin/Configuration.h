@@ -120,7 +120,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "MyConfiguration"
+#define CUSTOM_MACHINE_NAME "Ender3 Max Neo"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -2390,6 +2390,22 @@
 //
 // Preheat Constants - Up to 10 are supported without changes
 //
+#define PREHEAT_3_LABEL       "PETG Preheat"
+#define PREHEAT_3_TEMP_HOTEND 175
+#define PREHEAT_3_TEMP_BED     90
+#define PREHEAT_3_FAN_SPEED   128
+
+#define PREHEAT_3_LABEL       "PETG"
+#define PREHEAT_3_TEMP_HOTEND 230
+#define PREHEAT_3_TEMP_BED     90
+#define PREHEAT_3_FAN_SPEED   128
+
+#define PREHEAT_1_LABEL       "PLA Preheat"
+#define PREHEAT_1_TEMP_HOTEND 150
+#define PREHEAT_1_TEMP_BED     60
+#define PREHEAT_1_TEMP_CHAMBER 35
+#define PREHEAT_1_FAN_SPEED     128 // Value from 0 to 255
+
 #define PREHEAT_1_LABEL       "PLA"
 #define PREHEAT_1_TEMP_HOTEND 195
 #define PREHEAT_1_TEMP_BED     60
@@ -2407,10 +2423,6 @@
 #define PREHEAT_3_TEMP_BED     80
 #define PREHEAT_3_FAN_SPEED   128
 
-#define PREHEAT_4_LABEL       "CUSTOM"
-#define PREHEAT_4_TEMP_HOTEND 190
-#define PREHEAT_4_TEMP_BED     50
-#define PREHEAT_4_FAN_SPEED   128
 
 // @section motion
 
